@@ -52,7 +52,6 @@ Tools used for DNS lookup:
 - nslookup
 - dig
 
----
 
 ## HTTP vs HTTPS
 

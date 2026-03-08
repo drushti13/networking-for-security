@@ -86,4 +86,17 @@ HTTPS
 80 - HTTP  
 443 - HTTPS  
 
-These ports are commonly scanned during network reconnaissance.
+## Network Protocols
+
+
+| Protocol | Full Form | Main Purpose | Typical Use Case |
+|----------|-----------|--------------|------------------|
+| **ARP** | Address Resolution Protocol | Maps an IP address to a MAC address within a local network. | Used when a device needs the MAC address of another device on the same LAN. |
+| **DHCP** | Dynamic Host Configuration Protocol | Automatically assigns IP addresses and other network settings to devices. | When a device connects to a network and receives an IP address automatically. |
+| **ICMP** | Internet Control Message Protocol | Used for network diagnostics and error reporting. | Commands like `ping` and `traceroute` rely on ICMP. |
+| **NAT** | Network Address Translation | Translates private IP addresses to a public IP address for internet communication. | Home routers allowing multiple devices to share one internet connection. |
+| **FTP** | File Transfer Protocol | Transfers files between a client and a server over a network. | Uploading or downloading files from a server. |
+| **SMTP** | Simple Mail Transfer Protocol | Sends and relays outgoing email between mail servers. | Used when sending an email. |
+| **POP3** | Post Office Protocol Version 3 | Retrieves emails from a mail server and typically downloads them to a client device. | Email clients downloading messages from a server. |
+| **IMAP** | Internet Message Access Protocol | Retrieves and manages email directly on the mail server without downloading all messages. | Synchronizing email across multiple devices. |
+| **WHOIS** | Whois Protocol | Queries databases to retrieve information about domain name registrations. | Checking domain ownership and registration details. |

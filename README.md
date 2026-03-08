@@ -76,18 +76,20 @@ HTTPS
 - Uses encryption via TLS
 - Default port: 443
 
-## Common Ports
+## Common Port
 
-21 - FTP  
-22 - SSH  
-23 - Telnet  
-25 - SMTP  
-53 - DNS  
-80 - HTTP  
-443 - HTTPS  
+| Protocol | Transport Protocol | Default Port Number |
+|---------|-------------------|--------------------|
+| TELNET  | TCP               | 23                 |
+| DNS     | UDP or TCP        | 53                 |
+| HTTP    | TCP               | 80                 |
+| HTTPS   | TCP               | 443                |
+| FTP     | TCP               | 21                 |
+| SMTP    | TCP               | 25                 |
+| POP3    | TCP               | 110                |
+| IMAP    | TCP               | 143                |
 
 ## Network Protocols
-
 
 | Protocol | Full Form | Main Purpose | Typical Use Case |
 |----------|-----------|--------------|------------------|

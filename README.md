@@ -78,13 +78,3 @@ HTTPS
 443 - HTTPS  
 
 These ports are commonly scanned during network reconnaissance.
-
-
-## Why Networking Matters in Cybersecurity
-
-Networking knowledge helps security professionals:
-
-- Analyze traffic
-- Detect attacks
-- Perform network scanning
-- Understand attack vectors

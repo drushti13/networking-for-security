@@ -18,7 +18,6 @@ The OSI model has seven layers:
 
 Each layer handles specific functions in network communication.
 
-
 ## TCP vs UDP
 
 TCP

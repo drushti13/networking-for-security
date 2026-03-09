@@ -82,12 +82,11 @@ HTTPS
 |---------|-------------------|--------------------|
 | TELNET  | TCP               | 23                 |
 | DNS     | UDP or TCP        | 53                 |
-| HTTP    | TCP               | 80                 |
-| HTTPS   | TCP               | 443                |
+| HTTP / HTTPS   | TCP               | 80 / 443                 |
 | FTP     | TCP               | 21                 |
-| SMTP /SMTPS    | TCP               | 25 /465 and 587                |
-| POP3 / POP3S   | TCP               | 110 /995             |
-| IMAP /IMAPS    | TCP               | 143 / 993               |
+| SMTP / SMTPS    | TCP               | 25 / 465 and 587                |
+| POP3 / POP3S   | TCP               | 110 / 995             |
+| IMAP / IMAPS    | TCP               | 143 / 993               |
 
 ## Network Protocols
 

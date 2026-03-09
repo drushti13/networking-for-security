@@ -85,9 +85,9 @@ HTTPS
 | HTTP    | TCP               | 80                 |
 | HTTPS   | TCP               | 443                |
 | FTP     | TCP               | 21                 |
-| SMTP    | TCP               | 25                 |
-| POP3    | TCP               | 110                |
-| IMAP    | TCP               | 143                |
+| SMTP /SMTPS    | TCP               | 25 /465 and 587                |
+| POP3 / POP3S   | TCP               | 110 /995             |
+| IMAP /IMAPS    | TCP               | 143 / 993               |
 
 ## Network Protocols
 
